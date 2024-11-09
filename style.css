@@ -4,20 +4,28 @@ body {
 }
 
 html {
-    font-family: sans-serif;
-    height: 100%;
+  font-family: sans-serif;
+  height: 100%;
 }
 
 body {
-    overflow: hidden;
-    height: inherit;
+  overflow: hidden;
+  height: inherit;
 }
 
 h1 {
-    font-size: 2rem;
-    position: absolute;
-    margin: 0;
-  
-    color: transparent;
-    text-shadow: 0 0 4px white;
-  }
+  font-size: 2rem;
+  position: absolute;
+  margin: 0;
+
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+
+p {
+  position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;
+  color: #aaa;
+}
